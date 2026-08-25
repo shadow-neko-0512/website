@@ -1,0 +1,11 @@
+{
+  "projects": [
+    {
+      "title": "PRISMA Mineral Classification Pipeline",
+      "year": "2025 — ongoing",
+      "description": "lorem ipsum dolor sit amet",
+      "tags": ["Python", "h5py", "rasterio", "SAM"],
+      "link": "#"
+    }
+  ]
+}

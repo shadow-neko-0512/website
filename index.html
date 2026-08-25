@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Santosh Kumar — Hyperspectral Remote Sensing Research</title>
+<meta name="description" content="Portfolio of Santosh Kumar — hyperspectral remote sensing, spectral classification and mineral detection research.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jim+Nightshade&family=Source+Serif+4:opsz,wght@8..60,400;8..60,500;8..60,600;8..60,700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ===== Wavelength progress rail (page-scroll indicator) ===== -->
+<div class="wavelength-rail" aria-hidden="true"><div class="wavelength-fill" id="scrollFill"></div></div>
+
+<!-- ===== Navigation ===== -->
+<header class="site-nav" id="siteNav">
+  <!-- Single top-left ASK logo -->
+  <a class="brand-mark-fixed" href="#home" aria-label="Home">
+    <span class="brand-as">AS</span><span class="brand-k">K</span>
+  </a>
+
+  <!-- Profile photo & name below -->
+  <a class="brand" href="#home" aria-label="Santosh Kumar — home">
+    <img class="brand-photo" src="assets\profile.webp" alt="Santosh Kumar">
+    <span class="brand-full">Santosh&nbsp;Kumar</span>
+  </a>
+
+  <nav class="nav-links" aria-label="Primary">
+    <a href="#home" class="nav-link active" data-nav>Home</a>
+    <a href="#about" class="nav-link" data-nav>About</a>
+    <a href="#skills" class="nav-link" data-nav>Skills</a>
+    <a href="#work" class="nav-link" data-nav>Papers &amp; Projects</a>
+    <a href="#courses" class="nav-link" data-nav>Courses</a>
+    <a href="#collaborate" class="nav-link nav-cta" data-nav>Collaborate</a>
+  </nav>
+
+  <div class="nav-socials" aria-label="Social links">
+    <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
+      <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M12 .5C5.73.5.98 5.24.98 11.52c0 5.02 3.26 9.28 7.77 10.78.57.1.78-.25.78-.55 0-.27-.01-1.16-.02-2.11-3.16.69-3.83-1.34-3.83-1.34-.52-1.31-1.26-1.66-1.26-1.66-1.03-.7.08-.69.08-.69 1.14.08 1.74 1.17 1.74 1.17 1.01 1.73 2.65 1.23 3.3.94.1-.73.4-1.23.72-1.51-2.52-.29-5.17-1.26-5.17-5.6 0-1.24.44-2.25 1.17-3.04-.12-.29-.51-1.45.11-3.02 0 0 .96-.31 3.14 1.16a10.9 10.9 0 0 1 5.72 0c2.18-1.47 3.14-1.16 3.14-1.16.62 1.57.23 2.73.11 3.02.73.79 1.17 1.8 1.17 3.04 0 4.35-2.66 5.31-5.19 5.59.41.35.77 1.04.77 2.1 0 1.52-.01 2.74-.01 3.11 0 .3.2.66.79.55A11.03 11.03 0 0 0 23.02 11.5C23.02 5.24 18.27.5 12 .5Z"/></svg>
+    </a>
+    <a href="https://linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
+      <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.03-1.85-3.03-1.86 0-2.14 1.45-2.14 2.94v5.66H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.61 0 4.28 2.38 4.28 5.47v6.27ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg>
+    </a>
+    <a href="mailto:asantoshkumar562@gmail.com" aria-label="Email" title="Email">
+      <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M2 5.5A2.5 2.5 0 0 1 4.5 3h15A2.5 2.5 0 0 1 22 5.5v13a2.5 2.5 0 0 1-2.5 2.5h-15A2.5 2.5 0 0 1 2 18.5v-13Zm2.2.5 7.4 6.06a.7.7 0 0 0 .8 0L19.8 6H4.2Zm15.8 1.62-6.98 5.72a2.7 2.7 0 0 1-3.44 0L4.6 7.62V18.5c0 .28.22.5.5.5h13.4a.5.5 0 0 0 .5-.5V7.62Z"/></svg>
+    </a>
+  </div>
+
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<main>
+
+<!-- ===== Home / Hero ===== -->
+  <!-- ===== Home / Hero ===== -->
+  <section id="home" class="section hero">
+    <img class="hero-bg" src="assets/background.webp" alt="" aria-hidden="true">
+    <div class="hero-bg-overlay" aria-hidden="true"></div>
+
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span>Welcome to my website</p>
+        <h1 class="hero-title"> Finding what<span class="hl"> beneath the surface</span> of our earth</h1>
+        <p class="hero-sub">Hi myself Santosh - I am a Geophysics student working</p>
+        
+        <div class="hero-actions">
+          <a href="#work" class="btn btn-primary">View Work</a>
+          <a href="#collaborate" class="btn btn-ghost">Hire Me</a>
+        </div>
+
+    <a class="scroll-cue" href="#about" aria-label="Scroll to About">
+      <span></span> scroll
+    </a>
+  </section>
+
+  <!-- ===== About ===== -->
+  <section id="about" class="section about">
+    <p class="section-eyebrow">Facts about me</p>
+    <div class="about-grid">
+      <div class="about-text">
+        <h2 class="section-title">Exploration and Geophysics</h2>
+        <p>My works is in the integrated field of machine learning and geophysical inversion modelling. I find the zone of mineralization for the betterment of the human and myself</p>
+        <p>I build model that can be used unversally for determination the zones like some treasure hunt is going on.</p>
+        <p>I care about reproducible science — every pipeline is written to be re-run with the hinge of getting any error or major modification.</p>
+      </div>
+      <div class="about-cards">
+        <div class="mini-card">
+          <span class="mini-card-tag">Focus</span>
+          <p>Exploration &amp; mapping</p>
+        </div>
+        <div class="mini-card">
+          <span class="mini-card-tag">Data</span>
+          <p>Geophysical data-set</p>
+        </div>
+        <div class="mini-card">
+          <span class="mini-card-tag">Target</span>
+          <p>Rare earth element minerals &amp; Economic minerals</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Skills ===== -->
+  <section id="skills" class="section skills">
+    <p class="section-eyebrow">What I know</p>
+    <h2 class="section-title">My skill you would be interested in</h2>
+    <p class="section-lede">A working set of languages, libraries and data formats I use</p>
+    <div id="skillsGrid" class="skills-grid" data-loading>
+      <p class="loading-text">Loading skills…</p>
+    </div>
+  </section>
+
+  <!-- ===== Papers & Projects ===== -->
+  <section id="work" class="section work">
+    <p class="section-eyebrow">My work so far</p>
+    <h2 class="section-title">Papers &amp; Project</h2>
+    <!-- <p class="section-lede"></p> -->
+
+    <div class="tab-row" role="tablist" aria-label="Research type">
+      <button class="tab-btn active" role="tab" aria-selected="true" data-tab="papers">Papers</button>
+      <button class="tab-btn" role="tab" aria-selected="false" data-tab="projects">Projects/ Internships</button>
+    </div>
+
+    <div id="papersPanel" class="tab-panel active" role="tabpanel">
+      <div id="papersGrid" class="work-grid" data-loading>
+        <p class="loading-text">Loading papers…</p>
+      </div>
+    </div>
+    <div id="projectsPanel" class="tab-panel" role="tabpanel" hidden>
+      <div id="projectsGrid" class="work-grid" data-loading>
+        <p class="loading-text">Loading projects/ internships…</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== Courses ===== -->
+  <section id="courses" class="section courses">
+    <p class="section-eyebrow">How I learnt these things</p>
+    <h2 class="section-title">Course-works</h2>
+    <!-- <p class="section-lede"></p> -->
+    <div id="coursesList" class="courses-list" data-loading>
+      <p class="loading-text">Loading courses…</p>
+    </div>
+  </section>
+
+  <!-- ===== Collaborate ===== -->
+  <section id="collaborate" class="section collaborate">
+    <p class="section-eyebrow">If you like my work and website</p>
+    <h2 class="section-title">Let's work on something!</h2>
+    <div class="collab-grid">
+
+      <div class="collab-contact">
+        <p class="collab-intro">Am available to work in the field of geophysics</p>
+        <ul class="contact-list">
+          <li>
+            <span class="contact-label">Email</span>
+            <a href="mailto:asantoshkumar562@gmail.com">E-Mail</a>
+          </li>
+          <li>
+            <span class="contact-label">Location</span>
+            <span>IISER Bhopal, Bhauri, Bhopal, Madhaya Pradesh, India, Pin - 462066</span>
+          </li>
+          <li>
+            <span class="contact-label">GitHub</span>
+            <a href="https://github.com/shadow-neko-0512" target="_blank" rel="noopener">Shadow-Neko</a>
+          </li>
+          <li>
+            <span class="contact-label">LinkedIn</span>
+            <a href="https://linkedin.com/" target="_blank" rel="noopener"></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="collab-divider" aria-hidden="true"><span></span></div>
+
+      <div class="collab-form-wrap">
+        <form id="collabForm" class="collab-form" action="https://formsubmit.co/asantoshkumar562@gmail.com" method="POST">
+          <!-- FormSubmit config: sends submissions straight to the email above -->
+          <input type="hidden" name="_subject" value="New message from portfolio site">
+          <input type="hidden" name="_template" value="table">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="text" name="_honey" style="display:none">
+
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="field">
+            <label for="email">Contact Details</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary form-submit">
+            <span class="btn-text">Send</span>
+          </button>
+          <p class="form-note" id="formNote">Submitting this form sends an email directly to my inbox — no need for any sign up or payment. Please respond as I would consider it as a complement.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <span class="brand-mark small" aria-hidden="true"><span class="brand-as">AS</span><span class="brand-k">K</span></span>
+    <p>&copy; <span id="year"></span> Website build with humour</p>
+  </footer>
+
+</main>
+
+<script src="js/main.js"></script>
+</body>
+</html>

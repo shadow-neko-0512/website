@@ -1,0 +1,41 @@
+{
+  "categories": [
+    {
+      "name": "Languages & Core",
+      "skills": [
+        { "name": "Python", "level": 95 },
+        { "name": "NumPy / SciPy", "level": 90 },
+        { "name": "MATLAB", "level": 65 },
+        { "name": "Bash / Linux", "level": 70 }
+      ]
+    },
+    {
+      "name": "Geospatial & Remote Sensing",
+      "skills": [
+        { "name": "rasterio / GDAL", "level": 88 },
+        { "name": "h5py (HDF5 cubes)", "level": 85 },
+        { "name": "spectral / SPy", "level": 90 },
+        { "name": "QGIS", "level": 75 },
+        { "name": "ENVI format handling", "level": 80 }
+      ]
+    },
+    {
+      "name": "Spectral Analysis",
+      "skills": [
+        { "name": "Spectral Angle Mapper (SAM)", "level": 92 },
+        { "name": "Endmember extraction", "level": 82 },
+        { "name": "Atmospheric correction", "level": 70 },
+        { "name": "PCA / MNF transforms", "level": 78 }
+      ]
+    },
+    {
+      "name": "Data & Visualization",
+      "skills": [
+        { "name": "Matplotlib", "level": 88 },
+        { "name": "Pandas", "level": 85 },
+        { "name": "scikit-learn", "level": 80 },
+        { "name": "Git / GitHub", "level": 82 }
+      ]
+    }
+  ]
+}
