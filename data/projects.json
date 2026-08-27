@@ -1,10 +1,10 @@
 {
   "projects": [
     {
-      "title": "PRISMA Mineral Classification Pipeline",
-      "year": "2025 — ongoing",
-      "description": "lorem ipsum dolor sit amet",
-      "tags": ["Python", "h5py", "rasterio", "SAM"],
+      "title": "MS thesis",
+      "year": "2026 — ongoing",
+      "description": "Integrated modeling of Gravity, Magnetic and Remote-sensing Data for advanced mineral exploration",
+      "tags": ["Python","Geophysics","Inversion Modeling","Mineral chemistry", "Remote-sensing and GIS"],
       "link": "#"
     }
   ]

@@ -1,10 +1,113 @@
 {
   "courses": [
     {
-      "title": "Remote Sensing & Image Interpretation",
-      "institution": "—",
+      "title": "Minerology",
+      "institution": "IISER Bhopal",
+      "year": "2024-2025",
+      "description": ""
+    },
+    {
+      "title": "Geohyrology",
+      "institution": "IISER Bhopal",
+      "year": "2024-2025",
+      "description": ""
+    },
+    {
+      "title": "Solid Earth Geophysics",
+      "institution": "IISER Bhopal",
+      "year": "2024-2025",
+      "description": ""
+    },
+    {
+      "title": "Igneous Petrology",
+      "institution": "IISER Bhopal",
+      "year": "2024-2025",
+      "description": ""
+    },
+    {
+      "title": "Basic field geology",
+      "institution": "IISER Bhopal",
+      "year": "2024-2025",
+      "description": ""
+    },
+    {
+      "title": "Sedimentology and principles of stratigraphy",
+      "institution": "IISER Bhopal",
+      "year": "2024-2025",
+      "description": ""
+    },
+    {
+      "title": "Remote sensing and GIS",
+      "institution": "IISER Bhopal",
       "year": "2023",
-      "description": "lorem"
+      "description": ""
+    },
+    {
+      "title": "Structural geology",
+      "institution": "IISER Bhopal",
+      "year": "2023",
+      "description": ""
+    },
+    {
+      "title": "Earth surface processes",
+      "institution": "IISER Bhopal",
+      "year": "2023",
+      "description": ""
+    },
+    {
+      "title": "Metamorphic petrology",
+      "institution": "IISER Bhopal",
+      "year": "2023",
+      "description": ""
+    },
+    {
+      "title": "Data analysis and statistics for geosciences",
+      "institution": "IISER Bhopal",
+      "year": "2023",
+      "description": ""
+    },
+    {
+      "title": "Evolution of Indian Plate",
+      "institution": "IISER Bhopal",
+      "year": "2023",
+      "description": ""
+    },
+    {
+      "title": "Advanced Minerology",
+      "institution": "IISER Bhopal",
+      "year": "2023",
+      "description": ""
+    },
+    {
+      "title": "Advanced field geology",
+      "institution": "IISER Bhopal",
+      "year": "2023",
+      "description": ""
+    },
+    {
+      "title": "Geology of Fuels",
+      "institution": "IISER Bhopal",
+      "year": "2023",
+      "description": ""
+    },
+    {
+      "title": "Seismology",
+      "institution": "IISER Bhopal",
+      "year": "2023",
+      "description": ""
+    },
+    {
+      "title": "Geo-analytical techiques",
+      "institution": "IISER Bhopal",
+      "year": "2023",
+      "description": ""
+    },
+    {
+      "title": "Geo-infomatics",
+      "institution": "IISER Bhopal",
+      "year": "2023",
+      "description": ""
     }
+
   ]
 }
