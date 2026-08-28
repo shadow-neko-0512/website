@@ -3,9 +3,16 @@
     {
       "title": "MS thesis",
       "year": "2026 — ongoing",
-      "description": "Integrated modeling of Gravity, Magnetic and Remote-sensing Data for advanced mineral exploration",
+      "description": "Integrated modeling of Gravity, Magnetic and Remote-sensing Data for advanced mineral exploration.\n<br><b>Principal investigator: <a href=\"https://scholar.google.com/citations?user=U1x8-OIAAAAJ&hl=en\" target=\"_blank\" rel=\"noopener\" class=\"work-link\">Dr. Ashwini Kant Tiwari →</a></b>",
       "tags": ["Python","Geophysics","Inversion Modeling","Mineral chemistry", "Remote-sensing and GIS"],
-      "link": "#"
+      "link": ""
+    },
+    {
+      "title": "Internship IISER Berhampur",
+      "year": "2024-2025",
+      "description": "Data Driven water level estimation using multivariate parameter analysis and machine learning model.\n<br><strong>Principal investigator: <a href=\"https://scholar.google.com/citations?user=ViogdUgAAAAJ&hl=en\" target=\"_blank\" rel=\"noopener\" class=\"work-link\">Dr. Pragnaaditya Malakar →</a></strong>",
+      "tags": ["Python","Hydrology","Machine learning","Data analysis"],
+      "link": ""
     }
   ]
 }
